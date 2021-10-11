@@ -40,13 +40,9 @@ body {
 }
 
 .soon {
-    background-image: url('../images/slider-2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #000;
     height: 100vh;
-    box-shadow: inset 0px 2000px 0px #ffffff87;
-    color: #000;
+    color: #fff;
     display: flex;
     align-items: center;
 }
@@ -56,12 +52,14 @@ body {
 }
 
 .logo {
-    height: 70px;
+    height: 100px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 20px 35px;
 }
 
 .logo img {
     max-height: 100%;
-    max-width: 54px;
     object-fit: contain;
 }
 
@@ -88,7 +86,7 @@ body {
     list-style: none;
     height: 40px;
     width: 40px;
-    background: #000;
+    background: #fff;
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -97,7 +95,7 @@ body {
 }
 
 .social-links ul li a {
-    color: #fff;
+    color: #000;
 }
 
 .soon-left {
@@ -109,17 +107,13 @@ body {
 }
 
 .soon-right h1 {
-    background: #000;
     width: max-content;
     margin: 0 auto 30px;
-    padding: 11px 27px;
     color: #fff;
 }
 
 .soon-right p {
-    background: #000;
     color: #fff;
-    padding: 10px 20px;
     margin-bottom: 25px;
 }
 

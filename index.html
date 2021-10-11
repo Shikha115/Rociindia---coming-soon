@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/hover.css">
+    <link rel="stylesheet" href="src/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="src/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <title>Rociindia</title>
+</head>
+
+<body>
+
+    <main>
+
+        <section class="soon">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="soon-left">
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="soon-right">
+                            <div class="logo">
+                                <img src="./src/images/logo.png" alt="">
+                            </div>
+                            <div>
+                                <h1>Coming Soon</h1>
+                                <p>The scents are artistically created keeping in mind different mythologies & memories from our travel diaries.</p>
+                                <!-- <form action="">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Enter your email address">
+                                        <div class="input-group-append">
+                                            <button type="button" class="btn">Subscribe</button>
+                                        </div>
+                                    </div>
+                                </form> -->
+                            </div>
+                            <div class="social-links">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!------------------------------------------------------------------------------------ -->
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function() {
+            var owl = $('.soon .owl-carousel');
+            owl.owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                smartSpeed: 1000,
+                autoplayHoverPause: true,
+                dots: false
+            });
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/8aa71aba32.js " crossorigin="anonymous"></script>
+    <!------------------------------------------------------------------------------------ -->
+</body>
+
+</html>

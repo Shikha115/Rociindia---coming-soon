@@ -49,6 +49,7 @@ body {
 
 .soon-right h1 {
     font-family: 'Freight Disp Pro Light';
+    font-style: italic;
 }
 
 .logo {
@@ -108,13 +109,15 @@ body {
 
 .soon-right h1 {
     width: max-content;
-    margin: 0 auto 30px;
+    margin: 0 auto 15px;
     color: #000;
+    font-size: 55px;
 }
 
 .soon-right p {
     color: #000;
     margin-bottom: 25px;
+    letter-spacing: 1px;
 }
 
 .soon input.form-control {
